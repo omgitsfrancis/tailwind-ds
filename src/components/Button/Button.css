@@ -1,0 +1,9 @@
+.button__base {
+  @apply text-base;
+  @apply font-extrabold px-3 py-1 bg-green-600;
+  @apply border-black border-solid border-4;
+}
+
+.button__base:hover {
+  @apply bg-red-600;
+}
